@@ -1,0 +1,36 @@
+# =====================
+# Virtual Environment
+# =====================
+.venv/
+venv/
+env/
+
+# =====================
+# Python cache
+# =====================
+__pycache__/
+*.py[cod]
+
+# =====================
+# Banco de dados local
+# =====================
+banco.db
+*.sqlite3
+
+# =====================
+# Alembic cache
+# =====================
+alembic/**/__pycache__/
+
+# =====================
+# Environment variables
+# =====================
+.env
+
+# =====================
+# IDE / OS
+# =====================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
